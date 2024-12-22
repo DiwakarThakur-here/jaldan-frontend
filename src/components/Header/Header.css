@@ -1,0 +1,78 @@
+/* Header base styling */
+.header {
+  display: flex;
+  justify-content: center; /* Center all content */
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo styling */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-right: auto; /* Push logo to the left */
+}
+
+/* Navigation links for desktop */
+.nav-links {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+.nav-item.active {
+  color: rgb(56, 181, 223);
+}
+
+.nav-item:hover {
+  color: rgb(68, 183, 222);
+}
+
+/* Hamburger menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-left: auto; /* Push hamburger to the right */
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: white;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

@@ -1,0 +1,80 @@
+/* Hall of Fame Section styles */
+
+.hall-of-fame-section {
+    padding: 50px 20px;
+    background-color: #bbd0ff;
+    text-align: center;
+  }
+  
+  .hall-of-fame-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hall-of-fame-heading {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #242424;
+  }
+  
+  .hall-of-fame-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #2e2e2e;
+    margin-bottom: 40px;
+  }
+  
+  .hall-of-fame-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+  }
+  
+  .hall-of-fame-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hall-of-fame-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #242424;
+  }
+  
+  .hall-of-fame-address {
+    font-size: 1rem;
+    color: #666666;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 768px) {
+    .hall-of-fame-heading {
+      font-size: 2.5rem;
+    }
+  
+    .hall-of-fame-description {
+      font-size: 1.1rem;
+    }
+  
+    .hall-of-fame-item {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hall-of-fame-heading {
+      font-size: 2rem;
+    }
+  
+    .hall-of-fame-description {
+      font-size: 1rem;
+    }
+  
+    .hall-of-fame-item {
+      padding: 10px;
+    }
+  }
+  

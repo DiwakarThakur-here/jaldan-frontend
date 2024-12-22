@@ -1,0 +1,55 @@
+/* src/components/AdPlatform/AdPlatform.css */
+.ad-platform {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background-color: #ffffff;
+  }
+  
+  .ad-platform-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .ad-platform-image img {
+    width: 80%; /* Makes the image responsive */
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .ad-platform-text {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .ad-platform-text h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .ad-platform-text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  
+  @media (max-width: 768px) {
+    .ad-platform-container {
+      flex-direction: column;
+    }
+  
+    .ad-platform-text h2 {
+      text-align: center;
+    }
+  
+    .ad-platform-text p {
+      text-align: center;
+    }
+  
+    .ad-platform-image img {
+      margin-bottom: 30px;
+    }
+  }
+  

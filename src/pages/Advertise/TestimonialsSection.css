@@ -1,0 +1,84 @@
+/* TestimonialsSection.css */
+
+.testimonials-container {
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.testimonials-heading {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.testimonial-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.testimonial-text p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.testimonial-text h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.testimonial-role {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.testimonial-image img {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-prev,
+.slick-next {
+  color: #333 !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .testimonial-content {
+    flex-direction: column; /* Stack text on top of image */
+    align-items: flex-start; /* Align text to the left */
+  }
+
+  .testimonial-image {
+    margin-top: 20px; /* Space between text and image */
+  }
+
+  .testimonial-text {
+    margin-right: 0; /* Remove right margin for stacked layout */
+  }
+}

@@ -1,0 +1,80 @@
+/* src/components/Partnership/Partnership.css */
+.partnership {
+    padding: 50px 20px;
+    background-color: #ffffff;
+  }
+  
+  .partnership-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: #bbd0ff;
+    border-radius: 15px;
+  }
+  
+  .section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .text {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .text h2 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .text p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .text button {
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .text button:hover {
+    background-color: #041528;
+    color: rgb(255, 255, 255);
+  }
+  .image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .image img {
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  @media (max-width: 768px) {
+    .section {
+      flex-direction: column;
+    }
+  
+    .text {
+      text-align: center;
+      padding-right: 0;
+      padding-bottom: 20px;
+    }
+  
+    .image img {
+      width: 100%;
+    }
+  }
+
+  

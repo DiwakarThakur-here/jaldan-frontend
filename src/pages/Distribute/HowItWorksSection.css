@@ -1,0 +1,87 @@
+.how-it-works {
+    padding: 80px 20px;
+    background-color: #bbd0ff;
+    text-align: center;
+  }
+  
+  .how-it-works-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .how-it-works-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  
+  .steps-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .step {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+  }
+  
+  .step-icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    /* Placeholder for icons; replace with actual icons or images */
+  }
+  
+  .step-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .step-description {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .partners-container {
+    margin-top: 60px;
+  }
+  
+  .partners-title {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  
+  .partners-logos {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .steps-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .step {
+      max-width: 100%;
+    }
+  
+    .how-it-works-title {
+      font-size: 2rem;
+    }
+  
+    .partners-title {
+      font-size: 1.8rem;
+    }
+  }
+  

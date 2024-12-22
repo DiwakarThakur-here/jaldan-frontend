@@ -1,0 +1,73 @@
+.distribute-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url('src/assets/images/StockCake-Rooftop Evening Gathering_1725860990.jpg') no-repeat center center/cover; /* Background image */
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0 20px;
+    position: relative;
+  }
+  
+  .distribute-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Overlay to improve text readability */
+    z-index: 1;
+  }
+  
+  .distribute-hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+  }
+  
+  .distribute-hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .distribute-hero-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    padding: 12px 24px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    border: 2px solid #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button:hover {
+    background-color: #010912;
+  color: rgb(255, 255, 255);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .distribute-hero-title {
+      font-size: 2.5rem;
+    }
+  
+    .distribute-hero-subtitle {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 12px 25px;
+      font-size: 1rem;
+    }
+  }
+  

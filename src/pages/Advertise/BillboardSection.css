@@ -1,0 +1,61 @@
+.billboard-section {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #bbd0ff;
+}
+
+.billboard-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.bottle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.bottle-item {
+  flex: 1 1 300px; /* Ensure side by side behavior */
+  margin: 10px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.bottle-image {
+  width: 100%;
+  height: auto;
+}
+
+.bottle-text {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.bottle-button {
+  padding: 12px 24px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 20px;
+}
+
+.bottle-button:hover {
+  background-color: #041528;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+  .billboard-title {
+    font-size: 2rem;
+  }
+
+  .bottle-item {
+    flex-basis: 100%; /* Ensures it stacks on very small screens if necessary */
+  }
+}
