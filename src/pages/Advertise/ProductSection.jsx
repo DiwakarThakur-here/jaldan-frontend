@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProductSection.css';
+import blankbottle from"/src/assets/images/blank_long-removebg-preview.png"
 
 const ProductSection = () => {
 
@@ -29,7 +30,7 @@ const ProductSection = () => {
         </button>
       </div>
       <div className="product-image">
-        <img src="src/assets/images/blank_long-removebg-preview.png" alt="Product Advertisement" />
+        <img src={blankbottle} alt="Product Advertisement" />
       </div>
     </div>
   );

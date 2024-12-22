@@ -4,25 +4,29 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import './TestimonialsSection.css';
+import directorImage from '/src/assets/images/director.png';
+import marketingHeadImage from '/src/assets/images/marketing head.png';
+import restaurantOwnerImage from '/src/assets/images/restaurant owner.jpeg';
+
 
 const testimonials = [
   {
     text: "It’s a really powerful tool. When they go to market with big events, like the ones we experienced with Jaldaan, it was a great experience!",
     author: "saksham Sharma",
     role: "Managing Director, Finanzing",
-    image: "src/assets/images/director.png"
+    image: directorImage // Use the imported image here
   },
   {
     text: "Amazing platform to promote our brand, reaching a wide genuine audience with minimal cost. Jaldaan has truly exceeded our expectations!",
     author: "Minakshi Kumari",
     role: "Marketing Head, EcoBrand",
-    image: "src/assets/images/marketing head.png"
+    image: marketingHeadImage // Use the imported image here
   },
   {
     text: "The quality and effectiveness of this platform have driven great results in our Customer increment. Highly recommended!",
     author: "Harshit Pathak",
     role: "General Manager, Greenfood",
-    image: "src/assets/images/restaurant owner.jpeg"
+    image: restaurantOwnerImage // Use the imported image here
   }
 ];
 

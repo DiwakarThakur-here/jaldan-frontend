@@ -1,5 +1,6 @@
 import React from 'react';
 import './HowItWorksSection.css';
+import howitwork from"/src/assets/images/how it work bgr.png"
 
 const HowItWorksSection = () => {
   return (
@@ -37,7 +38,7 @@ const HowItWorksSection = () => {
         <div className="partners-container">
           <h3 className="partners-title">Our Clients</h3>
           <img 
-            src="src/assets/images/how it work bgr.png"
+            src={howitwork}
             alt="Partner logos" 
             className="partners-logos"
           />

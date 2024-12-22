@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
+import heroImage from '/src/assets/images/siddhi web bg.png'; // Import the image
 
 const HeroSection = () => {
   const scrollToAdvertiseForm = () => {
@@ -23,7 +24,7 @@ const HeroSection = () => {
         </div>
         <div className="advertise-hero-image-container">
           <img 
-            src="src/assets/images/siddhi web bg.png" 
+            src={heroImage}
             alt="Advertise Bottle" 
             className="advertise-hero-image" 
           />

@@ -1,5 +1,7 @@
 import React from "react";
 import "./BillboardSection.css"; // Import the CSS file
+import bottle1 from "/src/assets/images/kozy_new-removebg-preview.png"; // Import the first image
+import bottle2 from "/src/assets/images/small pack bgr.png"; // Import the second image
 
 const BillboardSection = () => {
   return (
@@ -8,7 +10,7 @@ const BillboardSection = () => {
       <div className="bottle-container">
         <div className="bottle-item">
           <img
-            src="src/assets/images/kozy_new-removebg-preview.png"
+            src={bottle1} // Use the imported image here
             alt="Bottle 1"
             className="bottle-image"
           />
@@ -21,7 +23,7 @@ const BillboardSection = () => {
 
         <div className="bottle-item">
           <img
-            src="src/assets/images/small pack bgr.png"
+            src={bottle2}
             alt="Bottle 2"
             className="bottle-image"
           />
