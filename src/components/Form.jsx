@@ -49,7 +49,8 @@ const Form = ({ formType }) => {
     }
    
     try {
-      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/form-submit`, {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND_URL}/api/form-submit`, {
+
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
